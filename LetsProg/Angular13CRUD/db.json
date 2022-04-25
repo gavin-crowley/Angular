@@ -1,0 +1,50 @@
+{
+  "productList": [
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 100,
+      "comment": "Fresh AF",
+      "date": "2022-04-24T23:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 2,
+      "comment": "Not fresh",
+      "date": "2022-04-06T23:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "asda",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 1231,
+      "comment": "zcas",
+      "date": "2022-04-12T23:00:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "qweq",
+      "category": "Fruits",
+      "freshness": "Refurbished",
+      "price": 56,
+      "comment": "hyjyy",
+      "date": "2022-04-03T23:00:00.000Z",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
