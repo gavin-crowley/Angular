@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MyStore';
+  testBoolean: boolean = false;
+
+  collectionOfStrings: string[] = ["Lorem ipsum", "Hello world", "Foo", "Bar", "Blah"]
+
+  onButtonClick(){
+    this.testBoolean = !this.testBoolean;
+  }
+
 }
+

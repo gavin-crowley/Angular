@@ -1,0 +1,9 @@
+<button (click)="onButtonClick()">Toggle boolean value</button>
+
+<div *ngIf="testBoolean == true">
+  <p>The boolean value is TRUE</p>
+</div>
+
+<p *ngFor="let randomString of collectionOfStrings" appHighlight>
+  {{randomString}}
+</p>
